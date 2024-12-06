@@ -7,8 +7,8 @@ function highlight() {
 }
 
 
-window.onload = function (){
-        [...document.getElementsByClassName('highlightable')]
+window.onload = function () {
+    [...document.getElementsByClassName('highlightable')]
         .forEach(element => {
             element.addEventListener('mouseenter', highlight);
             element.addEventListener('mouseout', highlight);

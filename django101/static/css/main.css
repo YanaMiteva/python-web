@@ -5,3 +5,12 @@ h1 {
 .highlighted {
     text-decoration: underline;
 }
+
+.odd {
+    font-size: 1.3em;
+}
+
+.even {
+    font-size: 0.8em
+;
+}

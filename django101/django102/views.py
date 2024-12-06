@@ -1,8 +1,9 @@
 from django.contrib.auth.models import User
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.views.generic import ListView
 
-from django101.models import Game
+from django102.models import Game
 
 
 def index(request):
@@ -15,6 +16,8 @@ def index(request):
     return render(request, 'index.html', context)
 
 
+def something(request):
+    return HttpResponse("<u>Hello, world. You're at the polls page.</u>")
 class UsersListView(ListView):
     model = User
     template_name = 'index2.html'
