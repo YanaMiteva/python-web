@@ -1,1 +1,1 @@
-django101
+Basic Django Projects
