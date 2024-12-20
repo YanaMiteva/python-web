@@ -21,6 +21,7 @@ from django.urls import path, include
 from django102.views import index, UsersListView, GamesListView
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path('', include('django102.urls')),
 ]
 

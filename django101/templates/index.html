@@ -24,5 +24,19 @@
     {% else %}
         <p>No users</p>
     {% endif %}
-    
+
+<h1>Games</h1>
+    {% if games %}
+        <ul>
+            {% for game in games %}
+            <li>
+                {{ game.name }} -
+                {{ game.get_level_of_difficulty_display }}
+                {{ game.players_count }}
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+            <p>No Games</p>
+    {% endif %}
 {% endblock %}
