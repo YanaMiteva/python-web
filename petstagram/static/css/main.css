@@ -1,0 +1,96 @@
+body {
+    font-size: 16px;
+    font-weight:300;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+}
+h1 {
+    color: rgb(33, 37, 41);
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 32px;
+}
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+section header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+.list-horizontal .list-item {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.row .col {
+    flex: 50%;
+    font-size: 20px;
+}
+
+.button {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 4.8px;
+    border-style: none;
+    text-align: center;
+    min-width: 96px;
+    min-height: 44px;
+
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+
+    padding: 8px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.button:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+.site-nav {
+    background-color: rgb(248, 249, 250);
+    height: 40px;
+    padding: 8px 16px;
+    margin-bottom: 30.375px;
+}
+
+.site-nav .list-item{
+    padding: 8px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+.banner{
+    background-color: #e9ecef;
+    width: 968px;
+    height: auto;
+    border-radius: 4.8px;
+    margin: 0 auto;
+    padding: 0 32px 32px 32px;
+}
+
+.banner:before {
+    background-image: url('/static/animals_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    background-position-y: 120%;
+    background-position-x: 50%;
+    display: flex;
+    content:'';
+    height: 360px;
+
+}
